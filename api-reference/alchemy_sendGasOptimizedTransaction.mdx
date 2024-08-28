@@ -1,6 +1,6 @@
 ---
 title: 'alchemy_sendGasOptimizedTransaction'
-description: 'Submits a bundle of identical transactions, each individually with a range of different gas values.'
+description: 'Submits a bundle of identical transactions, with different gas values.'
 ---
 
 <Info>Reinforced Transactions needs to be enabled to use `alchemy_sendGasOptimizedTransaction`.</Info>
@@ -24,7 +24,7 @@ description: 'Submits a bundle of identical transactions, each individually with
 ### Response
 
 <ResponseField name="trackingId" type="string">
-Id used to query transaction status - see `alchemy_getGasOptimizedTransactionStatus`.
+The id to query the transaction job status - see `alchemy_getGasOptimizedTransactionStatus`.
 </ResponseField>
 
 ### Code
